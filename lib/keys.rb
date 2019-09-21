@@ -8,6 +8,6 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_keys(groceries)
-  #code your solution here!
+def groceries.keys
+#=> [:dairy, :vegetable, :meat, :grains]
 end
