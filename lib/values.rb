@@ -9,5 +9,14 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
+  groceries = {
+  dairy: ["milk", "yogurt", "cheese"],
+  vegetable: ["carrots", "broccoli", "cucumbers"],
+  meast: ["chicken", "steak", "salmon"],
+  grains: ["rice", "pasta"]
+  }
+  groceries.values
+  groceries.values.flatten
+  
   #code your solution here!
 end
